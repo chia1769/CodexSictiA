@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Datos básicos que usan el navegador y los buscadores. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SictiA aplica inteligencia artificial, Gemini y seguridad electrónica para resolver problemas reales en las pymes."
+    />
+    <title>SictiA | iA aplicada</title>
+
+    <!-- Se carga la fuente desde Google para una apariencia limpia y legible. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Encabezado fijo: permite navegar rápidamente por la única página. -->
+    <header class="header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio de SictiA">
+        SICT<span>iA</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="navigation" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#iaplicada">iA Aplicada</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Primera sección: explica qué hace SictiA y dirige al contacto principal. -->
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Inteligencia artificial aplicada</p>
+          <h1>La <em>iA</em> solo impacta cuando se <em>aplica.</em></h1>
+          <p class="hero-text">
+            En SictiA ayudamos a las pymes a proteger sus espacios y mejorar la forma en que trabajan,
+            mediante automatizaciones con inteligencia artificial aplicada.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-whatsapp"
+              href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20conocer%20sus%20servicios."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.1 19.8L3 29l6.4-1.7A13 13 0 1 0 16 3Zm0 23.7c-2 0-4-.5-5.8-1.6l-.4-.2-3.8 1 1-3.7-.3-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.8-.9-2.1-1s-.6-.2-.8.2-.9 1-.9 1.1-.4.2-.7 0a8.7 8.7 0 0 1-2.6-1.6 9.5 9.5 0 0 1-1.8-2.3c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.5 0-.7l-1-2.3c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.2 1.3 3.7 1.4 4 .3.5 2 2.1c2.2 2.1 3.9 2.7 5.3 3.1.9.3 1.7.2 2.3.1.7-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.2-.2-.5-.4Z" fill="currentColor" /></svg> Hablemos por WhatsApp
+            </a>
+            <a class="text-link" href="#servicios">Ver servicios <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <!-- Elemento visual construido en CSS, sin depender de imágenes externas. -->
+        <div class="hero-mark" aria-hidden="true">
+          <div class="mark-circle"></div>
+          <p>iA<br /><strong>Aplicada</strong></p>
+          <span class="mark-brand">SICT<strong>iA</strong></span>
+        </div>
+      </section>
+
+      <!-- Resume el enfoque de la empresa en tres líneas de negocio. -->
+      <section class="services section" id="servicios">
+        <div class="section-heading">
+          <p class="eyebrow">Tres formas de avanzar</p>
+          <h2>Soluciones para problemas reales.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <p class="service-number">01</p>
+            <!-- Cámara de seguridad en SVG para identificar esta línea de servicio. -->
+            <div class="service-icon camera-icon" aria-label="Cámara de seguridad">
+              <svg viewBox="0 0 64 64" role="img" aria-label="Cámara de seguridad">
+                <path d="M12 25h33a7 7 0 0 1 7 7v13a7 7 0 0 1-7 7H12a5 5 0 0 1-5-5V30a5 5 0 0 1 5-5Z" fill="currentColor"/>
+                <path d="M52 32 61 25v27l-9-7Z" fill="currentColor"/>
+                <circle cx="29.5" cy="38.5" r="9" fill="#ffede6"/>
+                <circle cx="29.5" cy="38.5" r="5" fill="currentColor"/>
+                <path d="M18 52h9l-4 7h-9Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Seguridad electrónica</h3>
+            <p>Protege lo que importa con sistemas pensados para las necesidades de tu empresa.</p>
+            <ul>
+              <li>CCTV y cámaras de seguridad</li>
+              <li>Control de acceso</li>
+              <li>Detección de incendios</li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20cotizar%20una%20soluci%C3%B3n%20de%20seguridad%20electr%C3%B3nica."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Cotizar seguridad <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="service-card featured">
+            <p class="service-number">02</p>
+            <!-- n8n y Google representan las integraciones de automatización con IA. -->
+            <div class="service-icon integrations-icon" aria-label="n8n y Google">
+              <span class="mini-logo n8n-logo" aria-label="n8n">
+                <svg viewBox="0 0 64 40" role="img" aria-label="n8n">
+                  <path d="M16 20h10m12 0h10M16 20 8 10m8 10L8 30m32-10 8-10m-8 10 8 10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"/>
+                  <circle cx="8" cy="10" r="6" fill="currentColor"/><circle cx="8" cy="30" r="6" fill="currentColor"/><circle cx="32" cy="20" r="7" fill="currentColor"/><circle cx="56" cy="10" r="6" fill="currentColor"/><circle cx="56" cy="30" r="6" fill="currentColor"/>
+                </svg>
+              </span>
+              <strong class="n8n-word">n8n</strong>
+              <span class="mini-logo google-mini" aria-label="Google">
+                <svg viewBox="0 0 48 48" role="img" aria-label="Google">
+                  <path fill="#FFC107" d="M43.6 20H42V20H24v8h11.3A12 12 0 1 1 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7A20 20 0 1 0 44 24c0-1.3-.1-2.7-.4-4Z"/>
+                  <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8A12 12 0 0 1 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7A20 20 0 0 0 6.3 14.7Z"/>
+                  <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2L31.2 33A12 12 0 0 1 12.7 28l-6.6 5.1A20 20 0 0 0 24 44Z"/>
+                  <path fill="#1976D2" d="M43.6 20H42V20H24v8h11.3a12 12 0 0 1-4.1 4.9l.1-.1 6.2 5.8C26 39 24 40 24 40a16 16 0 0 0 19.6-20Z"/>
+                </svg>
+              </span>
+            </div>
+            <h3>Automatización comercial con IA</h3>
+            <p>Libera tiempo de tu equipo comercial para que se enfoque en vender y atender mejor.</p>
+            <ul>
+              <li>Automatización de flujos</li>
+              <li>Creación de agentes de IA</li>
+              <li>Consultoría, implementación y capacitación</li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20un%20diagn%C3%B3stico%20de%20automatizaci%C3%B3n%20para%20mi%20equipo%20comercial."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Solicitar diagnóstico <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="service-card">
+            <p class="service-number">03</p>
+            <!-- Logotipo de Google en SVG para identificar el ecosistema Workspace. -->
+            <div class="service-icon google-icon" aria-label="Google">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Google">
+                <path fill="#FFC107" d="M43.6 20H42V20H24v8h11.3A12 12 0 1 1 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7A20 20 0 1 0 44 24c0-1.3-.1-2.7-.4-4Z"/>
+                <path fill="#FF3D00" d="m6.3 14.7 6.6 4.8A12 12 0 0 1 24 12c3.1 0 5.9 1.2 8 3.1l5.7-5.7A20 20 0 0 0 6.3 14.7Z"/>
+                <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2L31.2 33A12 12 0 0 1 12.7 28l-6.6 5.1A20 20 0 0 0 24 44Z"/>
+                <path fill="#1976D2" d="M43.6 20H42V20H24v8h11.3a12 12 0 0 1-4.1 4.9l.1-.1 6.2 5.8C26 39 24 40 24 40a16 16 0 0 0 19.6-20Z"/>
+              </svg>
+            </div>
+            <h3>Gemini para Workspace</h3>
+            <p>Incorpora inteligencia artificial de forma útil en las herramientas que tu equipo ya usa.</p>
+            <ul>
+              <li>Productividad con Google Gemini</li>
+              <li>Implementación guiada</li>
+              <li>Capacitación para equipos</li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20capacitar%20a%20mi%20equipo%20en%20Gemini%20para%20Google%20Workspace."
+              target="_blank"
+              rel="noopener noreferrer"
+            >Capacitar mi equipo <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Explicación de la frase y filosofía principal de la marca. -->
+      <section class="iaplicada section" id="iaplicada">
+        <div class="iaplicada-label">iA aplicada</div>
+        <div class="iaplicada-copy">
+          <p class="eyebrow">Nuestra manera de pensar</p>
+          <h2>No se trata de la marca del modelo de iA. Se trata del impacto.</h2>
+          <p>
+            Para nosotros, la inteligencia artificial no se mide por su sofisticación, sino por su capacidad de resolver problemas concretos. A eso lo llamamos <strong>iA aplicada</strong>.
+          </p>
+        </div>
+        <div class="principles">
+          <div><span>01</span><p>Entendemos el problema antes de elegir la tecnología.</p></div>
+          <div><span>02</span><p>Implementamos soluciones que tu equipo pueda usar.</p></div>
+          <div><span>03</span><p>Medimos el valor en tiempo, foco y resultados.</p></div>
+        </div>
+      </section>
+
+      <!-- Bloque de confianza: comunica experiencia sin afirmar resultados no comprobados. -->
+      <section class="experience section">
+        <p class="eyebrow">Experiencia que acompaña</p>
+        <div>
+          <h2>Entendemos la iA y los retos cotidianos de las empresas.</h2>
+          <p>
+            Combinamos años de experiencia en consultoría y ventas para acompañarte desde el diagnóstico hasta la adopción de la solución.
+          </p>
+        </div>
+      </section>
+
+      <!-- Cierre con los dos canales de contacto disponibles. -->
+      <section class="contact" id="contacto">
+        <p class="eyebrow">Empecemos</p>
+        <h2>Cuéntanos qué necesitas resolver.</h2>
+        <p>Conversemos sobre una solución útil para tu empresa.</p>
+        <div class="contact-actions">
+          <a
+            class="button button-whatsapp"
+            href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20hablar%20sobre%20una%20soluci%C3%B3n%20para%20mi%20empresa."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.1 19.8L3 29l6.4-1.7A13 13 0 1 0 16 3Zm0 23.7c-2 0-4-.5-5.8-1.6l-.4-.2-3.8 1 1-3.7-.3-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.8-.9-2.1-1s-.6-.2-.8.2-.9 1-.9 1.1-.4.2-.7 0a8.7 8.7 0 0 1-2.6-1.6 9.5 9.5 0 0 1-1.8-2.3c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.5 0-.7l-1-2.3c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.2 1.3 3.7 1.4 4 .3.5 2 2.1c2.2 2.1 3.9 2.7 5.3 3.1.9.3 1.7.2 2.3.1.7-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.2-.2-.5-.4Z" fill="currentColor" /></svg> Contactar por WhatsApp
+          </a>
+          <a class="phone-link" href="tel:+573244110821">Tel : +57 3244110821</a>
+          <a class="email-link" href="mailto:info@sictia.com">info@sictia.com</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página con la identidad y año que JavaScript actualiza automáticamente. -->
+    <footer class="footer">
+      <a class="brand" href="#inicio">SICT<span>iA</span></a>
+      <p>iA aplicada para problemas reales.</p>
+      <p>© <span id="current-year"></span> SictiA</p>
+    </footer>
+
+    <!-- Acceso rápido fijo a WhatsApp, disponible desde cualquier sección. -->
+    <a class="whatsapp-float" href="https://wa.me/573244110821?text=Hola%20SictiA%2C%20quiero%20conocer%20sus%20servicios." target="_blank" rel="noopener noreferrer" aria-label="Contactar a SictiA por WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.1 19.8L3 29l6.4-1.7A13 13 0 1 0 16 3Zm0 23.7c-2 0-4-.5-5.8-1.6l-.4-.2-3.8 1 1-3.7-.3-.4A10.7 10.7 0 1 1 16 26.7Zm5.9-8c-.3-.2-1.8-.9-2.1-1s-.6-.2-.8.2-.9 1-.9 1.1-.4.2-.7 0a8.7 8.7 0 0 1-2.6-1.6 9.5 9.5 0 0 1-1.8-2.3c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6s0-.5 0-.7l-1-2.3c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1 .5s-1.3 1.3-1.3 3.2 1.3 3.7 1.4 4 .3.5 2 2.1c2.2 2.1 3.9 2.7 5.3 3.1.9.3 1.7.2 2.3.1.7-.1 1.8-.7 2-1.4s.3-1.3.2-1.4-.2-.2-.5-.4Z" fill="currentColor" /></svg>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
